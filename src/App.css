@@ -27,3 +27,9 @@
   color: #fff;
   font-size: 48px;
 }
+
+.linhas {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 22px;
+}

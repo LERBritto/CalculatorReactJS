@@ -1,0 +1,13 @@
+.zeroButton {
+    height: 60px;
+    width: 144px;
+    font-size: 32px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.zeroButton:hover {
+    opacity: 0.9;
+}
