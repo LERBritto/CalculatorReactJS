@@ -1,7 +1,7 @@
 # CalculatorReactJS
 
 Aplicativo web de **calculadora** simples desenvolvido em React com Vite.  
-Suporta as operações aritméticas básicas, porcentagem, ponto decimal, limpar entrada e limpar tudo. :contentReference[oaicite:0]{index=0}
+Suporta as operações aritméticas básicas, porcentagem, ponto decimal, limpar entrada e limpar tudo.
 
 ---
 
@@ -14,27 +14,29 @@ Suporta as operações aritméticas básicas, porcentagem, ponto decimal, limpar
 
 ## Como rodar localmente
 
-```bash
 # Clone o repositório
+```bash
 git clone https://github.com/LERBritto/CalculatorReactJS.git
 cd CalculatorReactJS
-
+```
 # Instale dependências
+```bash
 npm install
-
+```
 # Execute em modo de desenvolvimento
+```bash
 npm run dev
 ```
 
 ## Funcionalidades
-➕ Adição, ➖ subtração, ✖️ multiplicação, ➗ divisão
+-"+" Adição, "-" subtração, "X" multiplicação, "/" divisão
 
-% Porcentagem
+-"%" Porcentagem
 
-. Ponto decimal
+-"." Ponto decimal
 
-CE limpar entrada atual
+-"CE" limpar entrada atual
 
-C limpar tudo
+-"C" limpar tudo
 
-Resultado após pressionar "="
+-Resultado após pressionar "="
