@@ -1,12 +1,40 @@
-# React + Vite
+# CalculatorReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicativo web de **calculadora** simples desenvolvido em React com Vite.  
+Suporta as operações aritméticas básicas, porcentagem, ponto decimal, limpar entrada e limpar tudo. :contentReference[oaicite:0]{index=0}
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias usadas
 
-## Expanding the ESLint configuration
+- **React** (via Vite)
+- **Vite** — bundler moderno e rápido
+- **ESLint** — linting para manter o código limpo
+- **CSS Modules** (ou arquivos `.css` simples) para estilização
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/LERBritto/CalculatorReactJS.git
+cd CalculatorReactJS
+
+# Instale dependências
+npm install
+
+# Execute em modo de desenvolvimento
+npm run dev
+```
+
+## Funcionalidades
+➕ Adição, ➖ subtração, ✖️ multiplicação, ➗ divisão
+
+% Porcentagem
+
+. Ponto decimal
+
+CE limpar entrada atual
+
+C limpar tudo
+
+Resultado após pressionar "="
